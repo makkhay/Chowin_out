@@ -11,9 +11,9 @@ https://expo.io/@jkhusanov/chowin-out
 ![Screenshot gif](https://github.com/makkhay/Chowin_out/blob/master/assets/Screenshots/Demo.gif)
 
 <div style={{display: flex; flex-direction: row}}>
-  <img src="/assets/Screenshots/one.png" width="270" />
-  <img src="project-plan-files/Screenshots/intro.png" width="270" />
-  <img src="project-plan-files/Screenshots/intro2.png" width="270" />
+  <img src="/assets/Screenshots/one.png" width="290" />
+  <img src="/assets/Screenshots/two.png" width="290" />
+  <img src="/assets/Screenshots/three.png" width="290" />
 </div>
 
 <div style={{display: flex; flex-direction: row}}>
