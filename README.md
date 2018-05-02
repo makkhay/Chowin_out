@@ -22,6 +22,8 @@ https://expo.io/@jkhusanov/chowin-out
   <img src="/assets/Screenshots/five.png" width="290" />
  
 </div>
+
+
 ### Android Screenshots
 
 <div style={{display: flex; flex-direction: row}}>
