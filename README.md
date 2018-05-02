@@ -3,7 +3,7 @@
 
 
 **Demo Expo**:
-https://expo.io/@jkhusanov/chowin-out
+https://exp.host/@makkhay/chowin-out
 
 ## Milestone #1
 
@@ -89,7 +89,7 @@ https://expo.io/@jkhusanov/chowin-out
 ### Week 1 (Nick's weekly progress)
 - [x] Geolocation and connected with IntroScreen and FoodScreen
 
-## Week 2 General TODO
+## Week 2 - 3 General TODO
 
 - [x] Polish the food display screen (Jahon)
 - [x] Restaurants list screen (Jahon)
