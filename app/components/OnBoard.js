@@ -21,7 +21,7 @@ const OnBoard = ({navigation}) => (
       onDone={()  => navigation.navigate('HomeTabs') }
       pages={[
         {
-          backgroundColor: '#03A9F4',
+          backgroundColor: '#795548',
           image: <Image 
           source={DISCOVER}  style={styles.logo}/>,
           title: 'Discover new Food',
