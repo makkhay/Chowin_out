@@ -8,10 +8,10 @@ https://expo.io/@jkhusanov/chowin-out
 ## Milestone #1
 
 ### Screenshots of UI Prototype 
-![Screenshot gif](https://github.com/mobile-space/chowin-out/blob/master/project-plan-files/onboardingScreen.gif)
+![Screenshot gif](https://github.com/makkhay/Chowin_out/blob/master/assets/Screenshots/Demo.gif)
 
 <div style={{display: flex; flex-direction: row}}>
-  <img src="project-plan-files/Screenshots/Splash.png" width="270" />
+  <img src="project-plan-files/assets/Screenshots/one.ong" width="270" />
   <img src="project-plan-files/Screenshots/intro.png" width="270" />
   <img src="project-plan-files/Screenshots/intro2.png" width="270" />
 </div>
