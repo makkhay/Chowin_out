@@ -11,15 +11,15 @@ https://expo.io/@jkhusanov/chowin-out
 ![Screenshot gif](https://github.com/makkhay/Chowin_out/blob/master/assets/Screenshots/Demo.gif)
 
 <div style={{display: flex; flex-direction: row}}>
-  <img src="/assets/Screenshots/one.png" width="300" />
-  <img src="/assets/Screenshots/two.png" width="300" />
-  <img src="/assets/Screenshots/three.png" width="300" />
+  <img src="/assets/Screenshots/one.png" width="290" />
+  <img src="/assets/Screenshots/two.png" width="290" />
+  <img src="/assets/Screenshots/three.png" width="290" />
 </div>
 
 <div style={{display: flex; flex-direction: row}}>
-  <img src="/assets/Screenshots/four.png" width="300" />
-  <img src="/assets/Screenshots/five.png" width="300" />
-  <img src="/assets/Screenshots/android/oneAndroid.png" width="300" />
+  <img src="/assets/Screenshots/four.png" width="290" />
+  <img src="/assets/Screenshots/five.png" width="290" />
+  <img src="/assets/Screenshots/android/oneAndroid.png" width="250" />
 </div>
 
 <div style={{display: flex; flex-direction: row}}>
