@@ -23,7 +23,7 @@ https://expo.io/@jkhusanov/chowin-out
 </div>
 
 <div style={{display: flex; flex-direction: row}}>
-   <img src="/assets/Screenshots/android/oneAndroid.png" width="2500" />
+   <img src="/assets/Screenshots/android/oneAndroid.png" width="200" />
   <img src="/assets/Screenshots/android/two.png" width="200" />
   <img src="/assets/Screenshots/android/three.png" width="200" />
 
