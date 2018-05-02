@@ -10,6 +10,7 @@ https://expo.io/@jkhusanov/chowin-out
 ### Screenshots of UI Prototype 
 ![Screenshot gif](https://github.com/makkhay/Chowin_out/blob/master/assets/Screenshots/Demo.gif)
 
+### IOS
 <div style={{display: flex; flex-direction: row}}>
   <img src="/assets/Screenshots/one.png" width="290" />
   <img src="/assets/Screenshots/two.png" width="290" />
@@ -21,6 +22,7 @@ https://expo.io/@jkhusanov/chowin-out
   <img src="/assets/Screenshots/five.png" width="290" />
  
 </div>
+### Android 
 
 <div style={{display: flex; flex-direction: row}}>
    <img src="/assets/Screenshots/android/oneAndroid.png" width="200" />
@@ -87,18 +89,18 @@ https://expo.io/@jkhusanov/chowin-out
 
 ## Week 2 General TODO
 
-- [ ] Polish the food display screen (Jahon)
-- [ ] Restaurants list screen (Jahon)
-- [ ] Restaurant screen (Jahon)
+- [x] Polish the food display screen (Jahon)
+- [x] Restaurants list screen (Jahon)
+- [x] Restaurant screen (Jahon)
 
-- [ ] Activity indicator for screens (Jahon) (Prakash)
-- [ ] Polish food detail screen (Prakash)
-- [ ] Async storage for intro, load once (Prakash)
-- [ ] New icon (Prakash)
+- [x] Activity indicator for screens (Jahon) (Prakash)
+- [x] Polish food detail screen (Prakash)
+- [x] Async storage for intro, load once (Prakash)
+- [x] New icon (Prakash)
 
-- [ ] Context API (Moni)
-- [ ] EatStreet and Yummly API (Moni)
+- [x] Context API (Moni)
+- [x] EatStreet and Yummly API (Moni)
 
 
-- [ ] Geolocation talk to EatStreet API (Nick)
-- [ ] Yelp API getting restaurants from EatStreet API (Nick)
+- [x] Geolocation talk to EatStreet API (Nick)
+- [x] Yelp API getting restaurants from EatStreet API (Nick)
