@@ -10,7 +10,7 @@ https://expo.io/@jkhusanov/chowin-out
 ### Screenshots of UI Prototype 
 ![Screenshot gif](https://github.com/makkhay/Chowin_out/blob/master/assets/Screenshots/Demo.gif)
 
-### IOS
+### IOS Screenshots
 <div style={{display: flex; flex-direction: row}}>
   <img src="/assets/Screenshots/one.png" width="290" />
   <img src="/assets/Screenshots/two.png" width="290" />
@@ -22,7 +22,7 @@ https://expo.io/@jkhusanov/chowin-out
   <img src="/assets/Screenshots/five.png" width="290" />
  
 </div>
-### Android 
+### Android Screenshots
 
 <div style={{display: flex; flex-direction: row}}>
    <img src="/assets/Screenshots/android/oneAndroid.png" width="200" />
