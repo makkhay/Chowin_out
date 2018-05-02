@@ -7,8 +7,10 @@ https://exp.host/@makkhay/chowin-out
 
 ## Milestone #1
 
-### Screenshots of UI Prototype 
+### Demo
+
 ![Screenshot gif](https://github.com/makkhay/Chowin_out/blob/master/assets/Screenshots/Demo.gif)
+
 
 ### IOS Screenshots
 <div style={{display: flex; flex-direction: row}}>
