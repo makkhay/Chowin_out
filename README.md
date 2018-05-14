@@ -3,24 +3,39 @@
 
 
 **Demo Expo**:
-https://expo.io/@jkhusanov/chowin-out
+https://exp.host/@makkhay/chowin-out
 
 ## Milestone #1
 
-### Screenshots of UI Prototype 
-![Screenshot gif](https://github.com/mobile-space/chowin-out/blob/master/project-plan-files/onboardingScreen.gif)
+### Demo
 
+![Screenshot gif](https://github.com/makkhay/Chowin_out/blob/master/assets/Screenshots/Demo.gif)
+
+
+### IOS Screenshots
 <div style={{display: flex; flex-direction: row}}>
-  <img src="project-plan-files/Screenshots/Splash.png" width="270" />
-  <img src="project-plan-files/Screenshots/intro.png" width="270" />
-  <img src="project-plan-files/Screenshots/intro2.png" width="270" />
+  <img src="/assets/Screenshots/one.png" width="290" />
+  <img src="/assets/Screenshots/two.png" width="290" />
+  <img src="/assets/Screenshots/three.png" width="290" />
 </div>
 
 <div style={{display: flex; flex-direction: row}}>
-  <img src="project-plan-files/Screenshots/main.png" width="270"  />
-  <img src="project-plan-files/Screenshots/Resturant.png" width="270" />
-  <img src="project-plan-files/Screenshots/recipie.png" width="270" />
+  <img src="/assets/Screenshots/four.png" width="290" />
+  <img src="/assets/Screenshots/five.png" width="290" />
+ 
 </div>
+
+
+### Android Screenshots
+
+<div style={{display: flex; flex-direction: row}}>
+   <img src="/assets/Screenshots/android/oneAndroid.png" width="200" />
+  <img src="/assets/Screenshots/android/two.png" width="200" />
+  <img src="/assets/Screenshots/android/three.png" width="200" />
+
+</div>
+
+
 
 
 
@@ -76,20 +91,20 @@ https://expo.io/@jkhusanov/chowin-out
 ### Week 1 (Nick's weekly progress)
 - [x] Geolocation and connected with IntroScreen and FoodScreen
 
-## Week 2 General TODO
+## Week 2 - 3 General TODO
 
-- [ ] Polish the food display screen (Jahon)
-- [ ] Restaurants list screen (Jahon)
-- [ ] Restaurant screen (Jahon)
+- [x] Polish the food display screen (Jahon)
+- [x] Restaurants list screen (Jahon)
+- [x] Restaurant screen (Jahon)
 
-- [ ] Activity indicator for screens (Jahon) (Prakash)
-- [ ] Polish food detail screen (Prakash)
-- [ ] Async storage for intro, load once (Prakash)
-- [ ] New icon (Prakash)
+- [x] Activity indicator for screens (Jahon) (Prakash)
+- [x] Polish food detail screen (Prakash)
+- [x] Async storage for intro, load once (Prakash)
+- [x] New icon (Prakash)
 
-- [ ] Context API (Moni)
-- [ ] EatStreet and Yummly API (Moni)
+- [x] Context API (Moni)
+- [x] EatStreet and Yummly API (Moni)
 
 
-- [ ] Geolocation talk to EatStreet API (Nick)
-- [ ] Yelp API getting restaurants from EatStreet API (Nick)
+- [x] Geolocation talk to EatStreet API (Nick)
+- [x] Yelp API getting restaurants from EatStreet API (Nick)
