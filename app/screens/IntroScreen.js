@@ -7,7 +7,7 @@ import FoodChooseScreen from '../screens/FoodChooseScreen'
 
 import HomeTabs from '../navigation/HomeTabs'
 
-// import checkIfFirstLaunch from '../utils/checkIfFirstLaunch';
+import checkIfFirstLaunch from '../utils/checkIfFirstLaunch';
 
 export default class IntroScreen extends React.Component {
   static navigationOptions = {
@@ -17,30 +17,30 @@ export default class IntroScreen extends React.Component {
     super(props);
 
     this.state = {
-      // isFirstLaunch: false,
-      // hasCheckedAsyncStorage: false,
+      isFirstLaunch: false,
+      hasCheckedAsyncStorage: false,
     };
   }
 
   async componentWillMount() {
-    // const isFirstLaunch = await checkIfFirstLaunch();
-    // this.setState({ isFirstLaunch, hasCheckedAsyncStorage: true });
+    const isFirstLaunch = await checkIfFirstLaunch();
+    this.setState({ isFirstLaunch, hasCheckedAsyncStorage: true });
   }
 
   
   render() {
-    // const { hasCheckedAsyncStorage, isFirstLaunch } = this.state;
-    // console.log(isFirstLaunch + "first launch")
+    const { hasCheckedAsyncStorage, isFirstLaunch } = this.state;
+    console.log(isFirstLaunch + "first launch")
 
 
-    // if (!hasCheckedAsyncStorage) {
-      // return null;
-    // }
+    if (!hasCheckedAsyncStorage) {
+      return null;
+    }
 
-    // return isFirstLaunch ?
-
-     return <OnBoard navigation={this.props.navigation}/> 
-    // <HomeTabs/>;
+    return isFirstLaunch ?
+    <OnBoard navigation={this.props.navigation}/> :
+    <HomeTabs/>;
+  
   
   }
 }

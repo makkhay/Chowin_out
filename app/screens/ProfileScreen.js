@@ -79,8 +79,10 @@ export default class ProfileScreen extends React.Component {
       <LinearGradient colors={['#536976', '#292E49']} style={styles.loadingView}>
         <View style={styles.activityIndicatorAndButtonContainer}>
           <ActivityIndicator size="large" />
+     
         </View>
       </LinearGradient>
+     
     )
   }
 
@@ -90,11 +92,22 @@ export default class ProfileScreen extends React.Component {
 
     this.setState({ imagesLoaded: true })
 
+    const foodId = await AsyncStorage.getItem('foodId');
+    if(foodId==null){
+           { Alert.alert(
+        'Nothing on the List',
+        'Your list seems to be empty, save a food and come back here :)',
+        [
+          {text: 'OK', onPress: () => console.log('OK Pressed')},
+        ],
+        { cancelable: false }
+      )}
 
+    }else {
 
     try {
 
-      const foodId = await AsyncStorage.getItem('foodId');
+    
       let response = await fetch(`http://api.yummly.com/v1/api/recipe/${foodId}?_app_id=eb4e23c7&_app_key=851038fb4920d6b523e47c79320c858e`,
         {
           method: 'GET',
@@ -133,6 +146,7 @@ export default class ProfileScreen extends React.Component {
       // Alert.alert('Unable to get the feed. Please try again later')
     }
   }
+  }
 
   _renderItem({ item, index }) {
     if(item){
@@ -143,6 +157,7 @@ export default class ProfileScreen extends React.Component {
       />
     );
   }
+
   }
 
 
